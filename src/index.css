@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@import "tailwindcss";
+
+*{
+  font-family: "Manrope", sans-serif;
+  cursor: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 9999s ease-in-out 0s;
+}
+.dark input:-webkit-autofill {
+  -webkit-text-fill-color: white;
+}
