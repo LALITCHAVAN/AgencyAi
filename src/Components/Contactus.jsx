@@ -172,7 +172,7 @@ const Contactus = () => {
           mx-auto
           px-7 py-3
           rounded-xl
-          bg-gradient-to-r
+          bg-linear-to-r
           from-blue-600
           to-indigo-600
           hover:from-indigo-600

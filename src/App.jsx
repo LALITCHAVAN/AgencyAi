@@ -75,7 +75,7 @@ const App = () => {
     <div
       className="
       relative min-h-screen overflow-hidden
-      bg-gradient-to-br
+      bg-linear-to-br
       from-slate-50
       via-blue-50
       to-indigo-100
@@ -90,7 +90,7 @@ const App = () => {
       <div
         className="
         absolute -top-40 -left-40
-        w-[700px] h-[700px]
+        w-700px h-700px
         bg-blue-500/20
         dark:bg-blue-600/15
         rounded-full blur-[250px]
@@ -100,7 +100,7 @@ const App = () => {
       <div
         className="
         absolute top-0 right-0
-        w-[700px] h-[700px]
+        w-700px h-700px
         bg-indigo-400/20
         dark:bg-indigo-600/15
         rounded-full blur-[250px]
@@ -111,7 +111,7 @@ const App = () => {
         className="
         absolute bottom-0 left-1/2
         -translate-x-1/2
-        w-[800px] h-[800px]
+        w-800px h-800px
         bg-cyan-300/20
         dark:bg-cyan-500/10
         rounded-full blur-[300px]
@@ -141,7 +141,7 @@ const App = () => {
         rounded-full
         border-2 border-blue-500
         pointer-events-none
-        z-[9999]
+        z-9999
       "
       />
 
@@ -154,7 +154,7 @@ const App = () => {
         rounded-full
         bg-blue-500
         pointer-events-none
-        z-[9999]
+        z-9999
       "
       />
     </div>

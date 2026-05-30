@@ -147,7 +147,7 @@ const Footer = ({ theme }) => {
 
               rounded-xl
 
-              bg-gradient-to-r
+              bg-linear-to-r
               from-blue-600
               to-indigo-600
 

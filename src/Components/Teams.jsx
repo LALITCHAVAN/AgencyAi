@@ -61,7 +61,7 @@ const Teams = () => {
               className="
               absolute top-0 left-0
               h-1 w-0
-              bg-gradient-to-r
+              bg-linear-to-r
               from-blue-500
               via-indigo-500
               to-purple-500
@@ -77,7 +77,7 @@ const Teams = () => {
               opacity-0
               group-hover:opacity-100
 
-              bg-gradient-to-br
+              bg-linear-to-br
               from-indigo-500/5
               via-transparent
               to-purple-500/5
@@ -141,7 +141,7 @@ const Teams = () => {
 
               w-0 h-0.5
 
-              bg-gradient-to-r
+              bg-linear-to-r
               from-blue-500
               to-indigo-500
 

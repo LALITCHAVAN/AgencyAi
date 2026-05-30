@@ -35,7 +35,7 @@ const Navbar = ({ theme, setTheme }) => {
           shadow-lg
         "
         >
-          {/* Logo */}
+          
           <a href="#home">
             <img
               src={theme === "dark" ? assets.logo_dark : assets.logo}
@@ -44,7 +44,6 @@ const Navbar = ({ theme, setTheme }) => {
             />
           </a>
 
-          {/* Desktop Navbar */}
           <div className="hidden sm:flex items-center gap-8">
             {navLinks.map((item, index) => (
               <motion.a
@@ -71,14 +70,12 @@ const Navbar = ({ theme, setTheme }) => {
             ))}
           </div>
 
-          {/* Right Side */}
           <div className="flex items-center gap-4">
             <ThemeToglebtm
               theme={theme}
               setTheme={setTheme}
             />
 
-            {/* Connect Button */}
             <motion.a
               href="#contact-us"
               whileHover={{ scale: 1.08 }}
@@ -88,7 +85,7 @@ const Navbar = ({ theme, setTheme }) => {
                 className="
                 hidden sm:flex items-center gap-2
                 px-6 py-3 rounded-full
-                bg-gradient-to-r
+                bg-linear-to-r
                 from-blue-600
                 to-indigo-600
                 hover:from-indigo-600
@@ -108,7 +105,6 @@ const Navbar = ({ theme, setTheme }) => {
               </button>
             </motion.a>
 
-            {/* Mobile Menu Icon */}
             <img
               src={
                 theme === "dark"
@@ -122,7 +118,6 @@ const Navbar = ({ theme, setTheme }) => {
           </div>
         </nav>
 
-        {/* Mobile Sidebar */}
         <div
           className={`
           fixed top-0 right-0 h-screen w-72
@@ -135,7 +130,6 @@ const Navbar = ({ theme, setTheme }) => {
           ${sidebarOpen ? "translate-x-0" : "translate-x-full"}
           `}
         >
-          {/* Close Button */}
           <img
             src={assets.close_icon}
             alt=""

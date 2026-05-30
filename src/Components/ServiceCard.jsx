@@ -29,7 +29,7 @@ const ServiceCard = ({ service, index }) => {
         className="
         absolute top-0 left-0
         h-0.5 w-0
-        bg-gradient-to-r
+        bg-linear-to-r
         from-purple-500
         via-blue-500
         to-cyan-400

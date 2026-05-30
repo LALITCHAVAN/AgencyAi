@@ -59,7 +59,7 @@ const Hero = () => {
           <span
             className="
             block
-            bg-gradient-to-r
+            bg-linear-to-r
             from-blue-500
             via-indigo-500
             to-purple-500
@@ -108,7 +108,7 @@ const Hero = () => {
             whileTap={{ scale: 0.95 }}
             className="
             px-8 py-4 rounded-full
-            bg-gradient-to-r
+            bg-linear-to-r
             from-blue-600
             to-indigo-600
             text-white
